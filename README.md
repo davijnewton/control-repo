@@ -205,3 +205,5 @@ to create your control repository starting from this template.
 ## Code Manager Setup
 
 If you use Puppet Enterprise, see the official [documentation](https://help.puppet.com/pe/current/topics/code_mgr.htm) for enabling Code Manager.
+
+CD4PE verification run 2026-07-17T11:31:22Z
