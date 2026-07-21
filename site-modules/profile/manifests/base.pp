@@ -3,7 +3,5 @@ class profile::base {
   notify { 'This is the base profile. It should be included on all nodes.': }
 
   # Configure message of the day
-  class { 'motd':
-    content => "==============================================\nWelcome to ${facts['hostname']}\nManaged by Puppet Infrastructure\n==============================================\n",
-  }
+  include 'motd'
 }
