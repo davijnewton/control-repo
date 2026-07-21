@@ -4,6 +4,6 @@ class profile::base {
 
   # Configure message of the day
   class { 'motd':
-    content => "Welcome to ${facts['hostname']}\nManaged by Puppet\n",
+    content => "==============================================\nWelcome to ${facts['hostname']}\nManaged by Puppet Infrastructure\n==============================================\n",
   }
 }
