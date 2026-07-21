@@ -3,5 +3,7 @@ class profile::base {
   notify { 'This is the base profile. It should be included on all nodes.': }
 
   # Configure message of the day
-  include 'motd'
+  class { 'motd':
+    ensure => present,
+  }
 }
