@@ -29,3 +29,6 @@ mod 'puppetlabs/apt', '10.0.1'
 mod 'puppetlabs/powershell', '6.1.0'
 mod 'puppetlabs/reboot', '5.1.0'
 mod 'puppetlabs/pwshlib', '2.0.1'
+mod 'myapp',
+	git: 'https://github.com/davijnewton/myapp.git',
+	branch: 'main'
